@@ -1,6 +1,15 @@
 import Foundation
 import CoreLocation
 
+/*
+ - Notes:
+ 
+ Since this file is used in multiple locations, it makes sense to create a shared framework for it.
+ I've now added it to PlacesAPI, so you should import only the API into the view controller (Main App)
+ to be used in multiple locations.
+ 
+ */
+
 public struct TSPlaceViewModel {
     public let name: String
     public let coordinate: CLLocationCoordinate2D
