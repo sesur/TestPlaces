@@ -18,18 +18,18 @@
 		1C3AB2BC2C15C27D007BD556 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3AB2B22C15C27D007BD556 /* UIView+Extensions.swift */; };
 		1C3AB2D52C1624B8007BD556 /* LBUICommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3AB2D42C1624B8007BD556 /* LBUICommon.swift */; };
 		1C3AB2D82C1627E0007BD556 /* LBWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3AB2D72C1627E0007BD556 /* LBWindow.swift */; };
-		EBE1D4ED2C3DB29E004D191A /* PlacesAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4EC2C3DB29E004D191A /* PlacesAPI.framework */; };
-		EBE1D4EE2C3DB29E004D191A /* PlacesAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4EC2C3DB29E004D191A /* PlacesAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7DBABF9F2C3F1DA7008545AE /* PlacesShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBABF9E2C3F1DA7008545AE /* PlacesShared.framework */; };
+		7DBABFA02C3F1DA7008545AE /* PlacesShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBABF9E2C3F1DA7008545AE /* PlacesShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EBE1D4EF2C3DB29E004D191A /* Embed Frameworks */ = {
+		7DBABFA12C3F1DA7008545AE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EBE1D4EE2C3DB29E004D191A /* PlacesAPI.framework in Embed Frameworks */,
+				7DBABFA02C3F1DA7008545AE /* PlacesShared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +49,7 @@
 		1C3AB2B22C15C27D007BD556 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		1C3AB2D42C1624B8007BD556 /* LBUICommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBUICommon.swift; sourceTree = "<group>"; };
 		1C3AB2D72C1627E0007BD556 /* LBWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBWindow.swift; sourceTree = "<group>"; };
+		7DBABF9E2C3F1DA7008545AE /* PlacesShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PlacesShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE1D4EC2C3DB29E004D191A /* PlacesAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PlacesAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -57,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE1D4ED2C3DB29E004D191A /* PlacesAPI.framework in Frameworks */,
+				7DBABF9F2C3F1DA7008545AE /* PlacesShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +136,7 @@
 		EBE1D4EB2C3DB29E004D191A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7DBABF9E2C3F1DA7008545AE /* PlacesShared.framework */,
 				EBE1D4EC2C3DB29E004D191A /* PlacesAPI.framework */,
 			);
 			name = Frameworks;
@@ -162,7 +164,7 @@
 				1C3AB2952C15C225007BD556 /* Sources */,
 				1C3AB2962C15C225007BD556 /* Frameworks */,
 				1C3AB2972C15C225007BD556 /* Resources */,
-				EBE1D4EF2C3DB29E004D191A /* Embed Frameworks */,
+				7DBABFA12C3F1DA7008545AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

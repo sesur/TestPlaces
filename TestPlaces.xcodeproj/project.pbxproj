@@ -17,11 +17,11 @@
 		7DBABF732C3F1A3E008545AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF722C3F1A3E008545AE /* ViewController.swift */; };
 		7DBABF762C3F1A57008545AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF742C3F1A56008545AE /* SceneDelegate.swift */; };
 		7DBABF772C3F1A57008545AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF752C3F1A56008545AE /* AppDelegate.swift */; };
+		7DBABFAA2C3F1F6B008545AE /* PlacesAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4C42C3DADB9004D191A /* PlacesAPI.framework */; };
 		7DD4B0062C3B0139000D1F19 /* Libraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AB2A82C15C236007BD556 /* Libraries.framework */; };
 		7DD4B0352C3B0464000D1F19 /* Libraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AB2A82C15C236007BD556 /* Libraries.framework */; };
 		EBE1D4E52C3DAE2A004D191A /* PlacesUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4CD2C3DADBE004D191A /* PlacesUI.framework */; };
 		EBE1D4E62C3DAE2A004D191A /* PlacesUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4CD2C3DADBE004D191A /* PlacesUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBE1D4E72C3DAE40004D191A /* PlacesAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4C42C3DADB9004D191A /* PlacesAPI.framework */; };
 		EBE1D4E82C3DAE40004D191A /* PlacesAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4C42C3DADB9004D191A /* PlacesAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1C551DF52C0C7A61005DBBC0;
 			remoteInfo = TestPlaces;
+		};
+		7DBABFAF2C3F209A008545AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBABFAB2C3F2099008545AE /* PlacesShared.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DBABF822C3F1C23008545AE;
+			remoteInfo = PlacesShared;
 		};
 		EBE1D4C32C3DADB9004D191A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -86,6 +93,7 @@
 		7DBABF722C3F1A3E008545AE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DBABF742C3F1A56008545AE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
 		7DBABF752C3F1A56008545AE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		7DBABFAB2C3F2099008545AE /* PlacesShared.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PlacesShared.xcodeproj; path = PlacesShared/PlacesShared.xcodeproj; sourceTree = SOURCE_ROOT; };
 		EBE1D4BD2C3DADB9004D191A /* PlacesAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PlacesAPI.xcodeproj; path = PlacesAPI/PlacesAPI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PlacesUI.xcodeproj; path = PlacesUI/PlacesUI.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -103,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE1D4E72C3DAE40004D191A /* PlacesAPI.framework in Frameworks */,
+				7DBABFAA2C3F1F6B008545AE /* PlacesAPI.framework in Frameworks */,
 				EBE1D4E52C3DAE2A004D191A /* PlacesUI.framework in Frameworks */,
 				7DD4B0062C3B0139000D1F19 /* Libraries.framework in Frameworks */,
 			);
@@ -176,6 +184,7 @@
 		1C551DF82C0C7A61005DBBC0 /* TestPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				7DBABFAB2C3F2099008545AE /* PlacesShared.xcodeproj */,
 				EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */,
 				EBE1D4BD2C3DADB9004D191A /* PlacesAPI.xcodeproj */,
 				1C3AB2A32C15C236007BD556 /* Libraries.xcodeproj */,
@@ -196,6 +205,14 @@
 				7D8AAB012C3A05CD00DDEB66 /* TSPlaceInfoTests.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		7DBABFAC2C3F2099008545AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DBABFB02C3F209A008545AE /* PlacesShared.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EBE1D4BE2C3DADB9004D191A /* Products */ = {
@@ -297,6 +314,10 @@
 					ProjectRef = EBE1D4BD2C3DADB9004D191A /* PlacesAPI.xcodeproj */;
 				},
 				{
+					ProductGroup = 7DBABFAC2C3F2099008545AE /* Products */;
+					ProjectRef = 7DBABFAB2C3F2099008545AE /* PlacesShared.xcodeproj */;
+				},
+				{
 					ProductGroup = EBE1D4C82C3DADBE004D191A /* Products */;
 					ProjectRef = EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */;
 				},
@@ -315,6 +336,13 @@
 			fileType = wrapper.framework;
 			path = Libraries.framework;
 			remoteRef = 1C3AB2A72C15C236007BD556 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7DBABFB02C3F209A008545AE /* PlacesShared.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PlacesShared.framework;
+			remoteRef = 7DBABFAF2C3F209A008545AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		EBE1D4C42C3DADB9004D191A /* PlacesAPI.framework */ = {

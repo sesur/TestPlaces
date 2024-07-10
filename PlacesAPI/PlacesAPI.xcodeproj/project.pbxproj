@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DBABF9C2C3F1D6F008545AE /* PlacesShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PlacesShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB24314F2C3DB61E0010E3E4 /* TSPlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSPlaceViewModel.swift; sourceTree = "<group>"; };
 		EBE1D4A22C3DAD92004D191A /* PlacesAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlacesAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE1D4A52C3DAD92004D191A /* PlacesAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacesAPI.h; sourceTree = "<group>"; };
@@ -32,11 +33,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DBABF9B2C3F1D6F008545AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DBABF9C2C3F1D6F008545AE /* PlacesShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EBE1D4982C3DAD92004D191A = {
 			isa = PBXGroup;
 			children = (
 				EBE1D4A42C3DAD92004D191A /* PlacesAPI */,
 				EBE1D4A32C3DAD92004D191A /* Products */,
+				7DBABF9B2C3F1D6F008545AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
