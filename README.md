@@ -65,6 +65,10 @@ Finish the TestPlaces application by completing the remaining functionalities, i
 - **Places List**: View a list of places, use the search bar to filter places, and click on a place to view details.
 - **Place Details**: View detailed information about a selected place, including its name, coordinates, and location on a map.
 
+## Architecture
+
+![Architecture](./TestPlaces_Architecture.png)
+
 ## License
 
 This project is licensed under the MIT License.
