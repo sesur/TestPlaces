@@ -14,9 +14,9 @@
 		1C551E032C0C7A62005DBBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C551E022C0C7A62005DBBC0 /* Assets.xcassets */; };
 		1C551E062C0C7A62005DBBC0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1C551E052C0C7A62005DBBC0 /* Base */; };
 		7D8AAB022C3A05CD00DDEB66 /* TSPlaceInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8AAB012C3A05CD00DDEB66 /* TSPlaceInfoTests.swift */; };
-		7DD4B0002C3B0026000D1F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4AFFE2C3B0026000D1F19 /* AppDelegate.swift */; };
-		7DD4B0022C3B0036000D1F19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4B0012C3B0036000D1F19 /* SceneDelegate.swift */; };
-		7DD4B0042C3B00B1000D1F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4B0032C3B00B1000D1F19 /* ViewController.swift */; };
+		7DBABF732C3F1A3E008545AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF722C3F1A3E008545AE /* ViewController.swift */; };
+		7DBABF762C3F1A57008545AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF742C3F1A56008545AE /* SceneDelegate.swift */; };
+		7DBABF772C3F1A57008545AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF752C3F1A56008545AE /* AppDelegate.swift */; };
 		7DD4B0062C3B0139000D1F19 /* Libraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AB2A82C15C236007BD556 /* Libraries.framework */; };
 		7DD4B0352C3B0464000D1F19 /* Libraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AB2A82C15C236007BD556 /* Libraries.framework */; };
 		EBE1D4E52C3DAE2A004D191A /* PlacesUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4CD2C3DADBE004D191A /* PlacesUI.framework */; };
@@ -47,26 +47,12 @@
 			remoteGlobalIDString = EBE1D4A22C3DAD92004D191A;
 			remoteInfo = PlacesAPI;
 		};
-		EBE1D4C52C3DADB9004D191A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBE1D4BD2C3DADB9004D191A /* PlacesAPI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EBE1D4AC2C3DAD93004D191A;
-			remoteInfo = PlacesAPITests;
-		};
 		EBE1D4CC2C3DADBE004D191A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EBE1D47E2C3DAD78004D191A;
 			remoteInfo = PlacesUI;
-		};
-		EBE1D4CE2C3DADBE004D191A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EBE1D4882C3DAD79004D191A;
-			remoteInfo = PlacesUITests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,9 +83,9 @@
 		1C551E052C0C7A62005DBBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C551E072C0C7A62005DBBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D8AAB012C3A05CD00DDEB66 /* TSPlaceInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSPlaceInfoTests.swift; sourceTree = "<group>"; };
-		7DD4AFFE2C3B0026000D1F19 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		7DD4B0012C3B0036000D1F19 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
-		7DD4B0032C3B00B1000D1F19 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
+		7DBABF722C3F1A3E008545AE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DBABF742C3F1A56008545AE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		7DBABF752C3F1A56008545AE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
 		EBE1D4BD2C3DADB9004D191A /* PlacesAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PlacesAPI.xcodeproj; path = PlacesAPI/PlacesAPI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PlacesUI.xcodeproj; path = PlacesUI/PlacesUI.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -193,9 +179,9 @@
 				EBE1D4C72C3DADBE004D191A /* PlacesUI.xcodeproj */,
 				EBE1D4BD2C3DADB9004D191A /* PlacesAPI.xcodeproj */,
 				1C3AB2A32C15C236007BD556 /* Libraries.xcodeproj */,
-				7DD4AFFE2C3B0026000D1F19 /* AppDelegate.swift */,
-				7DD4B0012C3B0036000D1F19 /* SceneDelegate.swift */,
-				7DD4B0032C3B00B1000D1F19 /* ViewController.swift */,
+				7DBABF752C3F1A56008545AE /* AppDelegate.swift */,
+				7DBABF742C3F1A56008545AE /* SceneDelegate.swift */,
+				7DBABF722C3F1A3E008545AE /* ViewController.swift */,
 				1C551DFF2C0C7A61005DBBC0 /* Main.storyboard */,
 				1C551E022C0C7A62005DBBC0 /* Assets.xcassets */,
 				1C551E042C0C7A62005DBBC0 /* LaunchScreen.storyboard */,
@@ -216,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				EBE1D4C42C3DADB9004D191A /* PlacesAPI.framework */,
-				EBE1D4C62C3DADB9004D191A /* PlacesAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				EBE1D4CD2C3DADBE004D191A /* PlacesUI.framework */,
-				EBE1D4CF2C3DADBE004D191A /* PlacesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -340,25 +324,11 @@
 			remoteRef = EBE1D4C32C3DADB9004D191A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EBE1D4C62C3DADB9004D191A /* PlacesAPITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PlacesAPITests.xctest;
-			remoteRef = EBE1D4C52C3DADB9004D191A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		EBE1D4CD2C3DADBE004D191A /* PlacesUI.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = PlacesUI.framework;
 			remoteRef = EBE1D4CC2C3DADBE004D191A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EBE1D4CF2C3DADBE004D191A /* PlacesUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PlacesUITests.xctest;
-			remoteRef = EBE1D4CE2C3DADBE004D191A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -399,9 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD4B0042C3B00B1000D1F19 /* ViewController.swift in Sources */,
-				7DD4B0022C3B0036000D1F19 /* SceneDelegate.swift in Sources */,
-				7DD4B0002C3B0026000D1F19 /* AppDelegate.swift in Sources */,
+				7DBABF772C3F1A57008545AE /* AppDelegate.swift in Sources */,
+				7DBABF732C3F1A3E008545AE /* ViewController.swift in Sources */,
+				7DBABF762C3F1A57008545AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +408,7 @@
 		1C3AB2CC2C15C47B007BD556 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -455,6 +426,7 @@
 		1C3AB2CD2C15C47B007BD556 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
