@@ -1,23 +1,22 @@
-//
-//  ViewController.swift
-//  TestPlaces
-//
-//  Created by John Doe on 02.06.2024.
-//
-
 import UIKit
 import Libraries
-import UI
+import PlacesUI
+import PlacesAPI
 
-class ViewController: LBNavigationController {
+/// ViewController manages and displays a list of places using TSPlacesView.
+public class ViewController: LBNavigationController {
+    
+    /// An array of TSPlaceViewModel instances representing the list of places to be displayed.
+    public var placesList: [TSPlaceViewModel]!
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+    
+        // Initialize TSPlacesView with the current view's bounds
         let placesView = TSPlacesView(frame: self.view.bounds)
+        placesView._places = placesList
+        
         let vc = LBViewController(preloadedView: placesView)
-		self.pushViewController(vc, animated: false)
-	}
-
-
+        self.pushViewController(vc, animated: false)
+    }
 }
-
