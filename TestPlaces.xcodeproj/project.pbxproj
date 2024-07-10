@@ -17,7 +17,7 @@
 		7DBABF732C3F1A3E008545AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF722C3F1A3E008545AE /* ViewController.swift */; };
 		7DBABF762C3F1A57008545AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF742C3F1A56008545AE /* SceneDelegate.swift */; };
 		7DBABF772C3F1A57008545AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBABF752C3F1A56008545AE /* AppDelegate.swift */; };
-		7DBABFAA2C3F1F6B008545AE /* PlacesAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4C42C3DADB9004D191A /* PlacesAPI.framework */; };
+		7DBABFB32C3F2A0F008545AE /* PlacesShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBABFB02C3F209A008545AE /* PlacesShared.framework */; };
 		7DD4B0062C3B0139000D1F19 /* Libraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AB2A82C15C236007BD556 /* Libraries.framework */; };
 		7DD4B0352C3B0464000D1F19 /* Libraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AB2A82C15C236007BD556 /* Libraries.framework */; };
 		EBE1D4E52C3DAE2A004D191A /* PlacesUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE1D4CD2C3DADBE004D191A /* PlacesUI.framework */; };
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DBABFAA2C3F1F6B008545AE /* PlacesAPI.framework in Frameworks */,
+				7DBABFB32C3F2A0F008545AE /* PlacesShared.framework in Frameworks */,
 				EBE1D4E52C3DAE2A004D191A /* PlacesUI.framework in Frameworks */,
 				7DD4B0062C3B0139000D1F19 /* Libraries.framework in Frameworks */,
 			);
